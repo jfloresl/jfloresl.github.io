@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/jflores1/public_html/
+    - export DEPLOYPATH=/home/jfloresl1/public_html/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp -R js $DEPLOYPATH
     - /bin/cp -R css $DEPLOYPATH
